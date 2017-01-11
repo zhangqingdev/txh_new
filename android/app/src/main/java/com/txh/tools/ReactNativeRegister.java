@@ -1,4 +1,4 @@
-package com.txh.com.txh.tools;
+package com.txh.tools;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
