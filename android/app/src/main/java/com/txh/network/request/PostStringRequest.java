@@ -7,9 +7,7 @@ import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 
-/**
- * Created by zhy on 15/12/14.
- */
+
 public class PostStringRequest extends OkHttpRequest
 {
     private static MediaType MEDIA_TYPE_PLAIN = MediaType.parse("text/plain;charset=utf-8");
@@ -46,6 +44,4 @@ public class PostStringRequest extends OkHttpRequest
     {
         return builder.post(requestBody).build();
     }
-
-
 }

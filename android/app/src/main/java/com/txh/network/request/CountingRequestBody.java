@@ -11,13 +11,6 @@ import okio.ForwardingSink;
 import okio.Okio;
 import okio.Sink;
 
-/**
- * Decorates an OkHttp request body to count the number of bytes written when writing it. Can
- * decorate any request body, but is most useful for tracking the upload progress of large
- * multipart requests.
- *
- * @author Leo Nikkilä
- */
 public class CountingRequestBody extends RequestBody
 {
 

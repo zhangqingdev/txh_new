@@ -9,9 +9,7 @@ import java.util.Set;
 import okhttp3.Cookie;
 import okhttp3.HttpUrl;
 
-/**
- * Created by zhy on 16/3/10.
- */
+
 public class MemoryCookieStore implements CookieStore
 {
     private final HashMap<String, List<Cookie>> allCookies = new HashMap<>();

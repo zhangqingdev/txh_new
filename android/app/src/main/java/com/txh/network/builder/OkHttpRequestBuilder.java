@@ -5,9 +5,7 @@ import com.txh.network.request.RequestCall;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by zhy on 15/12/14.
- */
+
 public abstract class OkHttpRequestBuilder<T extends OkHttpRequestBuilder>
 {
     protected String url;

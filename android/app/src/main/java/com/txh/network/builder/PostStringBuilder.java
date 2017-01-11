@@ -2,12 +2,8 @@ package com.txh.network.builder;
 
 import com.txh.network.request.PostStringRequest;
 import com.txh.network.request.RequestCall;
-
 import okhttp3.MediaType;
 
-/**
- * Created by zhy on 15/12/14.
- */
 public class PostStringBuilder extends OkHttpRequestBuilder<PostStringBuilder>
 {
     private String content;
